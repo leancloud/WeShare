@@ -30,8 +30,10 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
     compile 'com.android.support:support-v4:22.0.0'
-    compile 'cn.leancloud.android:avoscloud-sdk:v3.0+'
-    compile 'cn.leancloud.android:avoscloud-statistics:v3.0+@aar'
+    // LeanCloud 基础包
+    compile ('cn.leancloud.android:avoscloud-sdk:v3.+')
+    // LeanCloud 统计包
+    compile ('cn.leancloud.android:avoscloud-statistics:v3.+')
     compile 'com.jakewharton:butterknife:6.1.0'
     compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
 
